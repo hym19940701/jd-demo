@@ -1,0 +1,14 @@
+[class ^='icon']{
+    background-position: 0 0;
+    background-image: url("../images/sprites.png");
+    background-size: 200px 200px;
+}
+
+.clearfix::before,.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
